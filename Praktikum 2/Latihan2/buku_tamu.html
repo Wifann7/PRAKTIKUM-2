@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Belajar Membuat Form</title>
+</head>
+<body>
+  <h2>Form Buku Tamu</h2>
+  <form>
+    <label>Nama Lengkap:</label><br>
+    <input type="text" name="nama"><br><br>
+
+    <label>Jenis Kelamin:</label><br>
+    <input type="radio" name="gender" value="Laki-laki">Laki-laki
+    <input type="radio" name="gender" value="Perempuan">Perempuan<br><br>
+
+    <label>Alamat Tinggal:</label><br>
+    <input type="text" name="alamat"><br><br>
+
+    <label>Email:</label><br>
+    <input type="text" name="email"><br><br>
+
+    <label>Media Sosial yang Anda gunakan:</label><br>
+    <input type="checkbox" name="sosmed" value="Facebook">Facebook
+    <input type="checkbox" name="sosmed" value="Twitter">Twitter
+    <input type="checkbox" name="sosmed" value="Instagram">Instagram<br><br>
+
+    <label>Mengetahui web ini dari:</label><br>
+    <select name="sumber">
+      <option value="Web">Web</option>
+      <option value="Surat Kabar">Surat Kabar</option>
+      <option value="Teman/Kerabat">Teman/Kerabat</option>
+      <option value="Browsing Internet">Browsing Internet</option>
+    </select><br><br>
+
+    <label>Pesan:</label><br>
+    <textarea name="pesan" rows="4" cols="40"></textarea><br><br>
+
+    <input type="submit" value="Kirim">
+  </form>
+</body>
+</html>
